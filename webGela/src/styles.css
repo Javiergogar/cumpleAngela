@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.textoWeno{
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+app-footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
