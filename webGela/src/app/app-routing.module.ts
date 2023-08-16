@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FelicitacionComponent } from './felicitacion/felicitacion.component';
+import { TextoFelicitacionComponent } from './texto-felicitacion/texto-felicitacion.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'felicitacion', component: FelicitacionComponent },
+  { path: 'texto-felicitacion/:id', component: TextoFelicitacionComponent },
   { path: '**', component: NotFoundComponent}
 ];
 

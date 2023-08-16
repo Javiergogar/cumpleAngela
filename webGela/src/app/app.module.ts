@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FelicitacionComponent } from './felicitacion/felicitacion.component';
+import { TextoFelicitacionComponent } from './texto-felicitacion/texto-felicitacion.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FelicitacionComponent } from './felicitacion/felicitacion.component';
     FooterComponent,
     NotFoundComponent,
     FelicitacionComponent,
+    TextoFelicitacionComponent,
   ],
   imports: [
     BrowserModule,
