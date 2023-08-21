@@ -14,7 +14,7 @@ export class FelicitacionComponent {
 
   }
 
-  irAJavilin(idFel:any){
+  irATexto(idFel:any){
     console.log("Boton felicitacion pulsado");
     this.router.navigate(['texto-felicitacion/'+idFel])
 
