@@ -18,3 +18,14 @@
 
   background: url(../../assets/fotos/yoamiga_pequenio.jpg);
 }
+
+.sindy:hover{
+  background: url(../../assets/fotos/Lasindy/lasindy_200.jpg);
+}
+.zaira:hover{
+  background: url(../../assets/fotos/Lazaira/zaira_200.jpg);
+}
+
+.edu:hover{
+  background: url(../../assets/fotos/Eledu/edu_200.jpg );
+}
