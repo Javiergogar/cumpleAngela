@@ -8,7 +8,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FelicitacionComponent } from './felicitacion/felicitacion.component';
-import { TextoFelicitacionComponent } from './texto-felicitacion/texto-felicitacion.component';
+import { JavilinComponent } from './javilin/javilin.component';
+import { SindyComponent } from './sindy/sindy.component';
+import { ZairaComponent } from './zaira/zaira.component';
+import { EduComponent } from './edu/edu.component';
+import { BtnAtrasComponent } from './btn-atras/btn-atras.component';
+import { ManuComponent } from './manu/manu.component';
+import { FresComponent } from './fres/fres.component';
+import { KatriComponent } from './katri/katri.component';
+import { HugoComponent } from './hugo/hugo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +26,15 @@ import { TextoFelicitacionComponent } from './texto-felicitacion/texto-felicitac
     FooterComponent,
     NotFoundComponent,
     FelicitacionComponent,
-    TextoFelicitacionComponent,
+    JavilinComponent,
+    SindyComponent,
+    ZairaComponent,
+    EduComponent,
+    BtnAtrasComponent,
+    ManuComponent,
+    FresComponent,
+    KatriComponent,
+    HugoComponent,
   ],
   imports: [
     BrowserModule,

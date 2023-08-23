@@ -16,7 +16,7 @@ export class FelicitacionComponent {
 
   irATexto(idFel:any){
     console.log("Boton felicitacion pulsado");
-    this.router.navigate(['texto-felicitacion/'+idFel])
+    this.router.navigate([idFel])
 
   }
 
