@@ -11,6 +11,9 @@ import { ManuComponent } from './manu/manu.component';
 import { FresComponent } from './fres/fres.component';
 import { KatriComponent } from './katri/katri.component';
 import { HugoComponent } from './hugo/hugo.component';
+import { BlancaComponent } from './blanca/blanca.component';
+import { CeliaComponent } from './celia/celia.component';
+import { BitaComponent } from './bita/bita.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
@@ -24,6 +27,9 @@ const routes: Routes = [
   { path: 'fres', component: FresComponent },
   { path: 'katri', component: KatriComponent },
   { path: 'hugo', component: HugoComponent },
+  { path: 'blanca', component: BlancaComponent },
+  { path: 'celia', component: CeliaComponent },
+  { path: 'bita', component: BitaComponent },
   { path: '**', component: NotFoundComponent}
 ];
 

@@ -17,6 +17,9 @@ import { ManuComponent } from './manu/manu.component';
 import { FresComponent } from './fres/fres.component';
 import { KatriComponent } from './katri/katri.component';
 import { HugoComponent } from './hugo/hugo.component';
+import { BlancaComponent } from './blanca/blanca.component';
+import { CeliaComponent } from './celia/celia.component';
+import { BitaComponent } from './bita/bita.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { HugoComponent } from './hugo/hugo.component';
     FresComponent,
     KatriComponent,
     HugoComponent,
+    BlancaComponent,
+    CeliaComponent,
+    BitaComponent,
   ],
   imports: [
     BrowserModule,
